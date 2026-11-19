@@ -41,6 +41,10 @@ testing (30 observations). With `random_state=42`, both models achieved
 | Logistic Regression | 93.3% |
 | Decision Tree | 93.3% |
 
+Both models correctly classified 28 of the 30 test flowers and achieved a
+macro F1 score of 0.933. They made the same two errors, misclassifying one
+versicolor as virginica and one virginica as versicolor.
+
 Both models classify `setosa` perfectly and achieve 90% precision and recall
 for `versicolor` and `virginica` in the held-out test set.
 
